@@ -1,6 +1,4 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
-</style>
 
 * {
     margin: 0;
@@ -20,10 +18,14 @@ p {
     font-size: 16px;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* NAVIGATION BAR */
 
 nav {
-    height: 100px;
+    height: 100;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
@@ -34,4 +36,12 @@ nav {
 
 nav__link--list {
     display: flex;
+}
+
+nav__link--anchor {
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 16px;
+    color:#73a15d;
+    font-weight: 700;
 }
