@@ -161,6 +161,7 @@ ABOUT ME
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
 }
 
 .about-me__pic--mask {
@@ -170,6 +171,7 @@ ABOUT ME
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
     animation: animate-profile-pic 800ms 200ms backwards;
+    margin: 16px;
 }
 
 @keyframes animate-profile-pic {
@@ -234,6 +236,7 @@ ABOUT ME
 .about-me__img {
     width: 100%;
     animation: fadeIn 1200ms 800ms backwards;
+    margin: 30px;
 }
 
 @keyframes fadeIn {
@@ -438,8 +441,8 @@ footer {
 }
 
 .footer__logo--img {
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
 }
 
 .footer__social--link,
